@@ -41,5 +41,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/my-own-tag:1.0
+          tags: samyak1515151/my-own-tag:1.0
           labels: ${{ steps.meta.outputs.labels }}
