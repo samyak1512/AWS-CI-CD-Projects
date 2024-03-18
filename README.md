@@ -31,7 +31,7 @@ The data was collected from Student_Performance_Data on Kaggle
 6. Check various categories present in the different categorical column
 ## Configure EC2 as self-hosted runner:
 
-## Setup github secrets:
+## Setup github secrets
 
 AWS_ACCESS_KEY_ID=
 
