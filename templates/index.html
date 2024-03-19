@@ -1,2 +1,50 @@
-<h1>Welcome to the home page</h1>
-<h2>Redirect to "url:8080/predictdata" to predict your result</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding-top: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        #countdown {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the home page</h1>
+    <h2>Redirecting to <span id="redirectUrl">http://13.233.152.180:8080/predictdata</span> to predict your result</h2>
+
+    <script>
+        // JavaScript for countdown and redirection
+        let countdown = 10; // Countdown duration in seconds
+        let countdownElement = document.getElementById('countdown');
+        let redirectUrlElement = document.getElementById('redirectUrl');
+
+        function startCountdown() {
+            countdownElement.textContent = countdown;
+            countdown--;
+
+            if (countdown >= 0) {
+                setTimeout(startCountdown, 1000);
+            } else {
+                // Redirect after countdown finishes
+                window.location.replace(redirectUrlElement.textContent);
+            }
+        }
+
+        // Start the countdown
+        startCountdown();
+    </script>
+</body>
+</html>
