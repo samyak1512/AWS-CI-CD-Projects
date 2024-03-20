@@ -1,3 +1,19 @@
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1200px-Amazon_Web_Services_Logo.svg.png" width="100" alt="project-logo">
+</p>
+<p align="center">
+    <h1 align="center">AWS-CI-CD-PROJECTS</h1>
+</p>
+<p align="center">
+	<img src="https://img.shields.io/github/license/samyak1512/AWS-CI-CD-Projects?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
+	<img src="https://img.shields.io/github/last-commit/samyak1512/AWS-CI-CD-Projects?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/samyak1512/AWS-CI-CD-Projects?style=default&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/samyak1512/AWS-CI-CD-Projects?style=default&color=0080ff" alt="repo-language-count">
+<p>
+<p align="center">
+	<!-- default option, no dependency badges. -->
+</p>
+
 ## Examination Score Predictor - [Online Link](http://13.233.152.180:8080/predictdata) 
 This project aims to understand how a student’s performance (test scores) is affected by other variables such as Gender, Ethnicity, Parental level of education, Lunch, and Test preparation course.
 
@@ -29,56 +45,16 @@ The data was collected from Student_Performance_Data on Kaggle
 4. Check the number of unique values of each column
 5. Check statistics of data set
 6. Check various categories present in the different categorical column
+## 4) Exploratory Data Analysis
+<img width="903" alt="image" src="https://github.com/samyak1512/AWS-CI-CD-Projects/assets/43640144/c9512b4a-252f-4613-9744-084c3c398145">
+<img width="907" alt="image" src="https://github.com/samyak1512/AWS-CI-CD-Projects/assets/43640144/c5c734d4-900f-4a8e-936a-3ce926794ba3">
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="100" alt="project-logo">
-</p>
-<p align="center">
-    <h1 align="center">AWS-CI-CD-PROJECTS</h1>
-</p>
-<p align="center">
-    <em><code>► INSERT-TEXT-HERE</code></em>
-</p>
-<p align="center">
-	<img src="https://img.shields.io/github/license/samyak1512/AWS-CI-CD-Projects?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
-	<img src="https://img.shields.io/github/last-commit/samyak1512/AWS-CI-CD-Projects?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/samyak1512/AWS-CI-CD-Projects?style=default&color=0080ff" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/samyak1512/AWS-CI-CD-Projects?style=default&color=0080ff" alt="repo-language-count">
-<p>
-<p align="center">
-	<!-- default option, no dependency badges. -->
-</p>
+## 6) Model Training
+Tested various different regressors, including Linear, Lasso, Ridge, KNN, Decision Tree, Random Forest, XGBoost, Caboost and Adabaoost regressor and calculated R^2 for each of them.
+<img width="695" alt="image" src="https://github.com/samyak1512/AWS-CI-CD-Projects/assets/43640144/b222beb6-92fd-4648-bc54-5e15b865a0e4">
 
-<br><!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary><br>
 
-- [ Overview](#-overview)
-- [ Features](#-features)
-- [ Repository Structure](#-repository-structure)
-- [ Modules](#-modules)
-- [ Getting Started](#-getting-started)
-  - [ Installation](#-installation)
-  - [ Usage](#-usage)
-  - [ Tests](#-tests)
-- [ Project Roadmap](#-project-roadmap)
-- [ Contributing](#-contributing)
-- [ License](#-license)
-- [ Acknowledgments](#-acknowledgments)
-</details>
-<hr>
 
-##  Overview
-
-<code>► INSERT-TEXT-HERE</code>
-
----
-
-##  Features
-
-<code>► INSERT-TEXT-HERE</code>
-
----
 
 ##  Repository Structure
 
@@ -117,91 +93,13 @@ The data was collected from Student_Performance_Data on Kaggle
 
 ---
 
-##  Modules
 
-<details closed><summary>.</summary>
-
-| File                                                                                              | Summary                         |
-| ---                                                                                               | ---                             |
-| [requirements.txt](https://github.com/samyak1512/AWS-CI-CD-Projects/blob/master/requirements.txt) | <code>► INSERT-TEXT-HERE</code> |
-| [Dockerfile](https://github.com/samyak1512/AWS-CI-CD-Projects/blob/master/Dockerfile)             | <code>► INSERT-TEXT-HERE</code> |
-| [setup.py](https://github.com/samyak1512/AWS-CI-CD-Projects/blob/master/setup.py)                 | <code>► INSERT-TEXT-HERE</code> |
-| [app.py](https://github.com/samyak1512/AWS-CI-CD-Projects/blob/master/app.py)                     | <code>► INSERT-TEXT-HERE</code> |
-
-</details>
-
-<details closed><summary>.github.workflows</summary>
-
-| File                                                                                                                    | Summary                         |
-| ---                                                                                                                     | ---                             |
-| [docker-publish.yml](https://github.com/samyak1512/AWS-CI-CD-Projects/blob/master/.github/workflows/docker-publish.yml) | <code>► INSERT-TEXT-HERE</code> |
-| [docker_hub.yml](https://github.com/samyak1512/AWS-CI-CD-Projects/blob/master/.github/workflows/docker_hub.yml)         | <code>► INSERT-TEXT-HERE</code> |
-| [main.yaml](https://github.com/samyak1512/AWS-CI-CD-Projects/blob/master/.github/workflows/main.yaml)                   | <code>► INSERT-TEXT-HERE</code> |
-| [docker-image.yml](https://github.com/samyak1512/AWS-CI-CD-Projects/blob/master/.github/workflows/docker-image.yml)     | <code>► INSERT-TEXT-HERE</code> |
-
-</details>
-
-<details closed><summary>templates</summary>
-
-| File                                                                                            | Summary                         |
-| ---                                                                                             | ---                             |
-| [index.html](https://github.com/samyak1512/AWS-CI-CD-Projects/blob/master/templates/index.html) | <code>► INSERT-TEXT-HERE</code> |
-| [home.html](https://github.com/samyak1512/AWS-CI-CD-Projects/blob/master/templates/home.html)   | <code>► INSERT-TEXT-HERE</code> |
-
-</details>
-
-<details closed><summary>notebook</summary>
-
-| File                                                                                                                                           | Summary                         |
-| ---                                                                                                                                            | ---                             |
-| [1 . EDA STUDENT PERFORMANCE .ipynb](https://github.com/samyak1512/AWS-CI-CD-Projects/blob/master/notebook/1 . EDA STUDENT PERFORMANCE .ipynb) | <code>► INSERT-TEXT-HERE</code> |
-| [2. MODEL TRAINING.ipynb](https://github.com/samyak1512/AWS-CI-CD-Projects/blob/master/notebook/2. MODEL TRAINING.ipynb)                       | <code>► INSERT-TEXT-HERE</code> |
-
-</details>
-
-<details closed><summary>notebook.catboost_info</summary>
-
-| File                                                                                                                                 | Summary                         |
-| ---                                                                                                                                  | ---                             |
-| [catboost_training.json](https://github.com/samyak1512/AWS-CI-CD-Projects/blob/master/notebook/catboost_info/catboost_training.json) | <code>► INSERT-TEXT-HERE</code> |
-
-</details>
-
-<details closed><summary>src</summary>
-
-| File                                                                                          | Summary                         |
-| ---                                                                                           | ---                             |
-| [exception.py](https://github.com/samyak1512/AWS-CI-CD-Projects/blob/master/src/exception.py) | <code>► INSERT-TEXT-HERE</code> |
-| [logger.py](https://github.com/samyak1512/AWS-CI-CD-Projects/blob/master/src/logger.py)       | <code>► INSERT-TEXT-HERE</code> |
-| [utils.py](https://github.com/samyak1512/AWS-CI-CD-Projects/blob/master/src/utils.py)         | <code>► INSERT-TEXT-HERE</code> |
-
-</details>
-
-<details closed><summary>src.pipeline</summary>
-
-| File                                                                                                                 | Summary                         |
-| ---                                                                                                                  | ---                             |
-| [predict_pipeline.py](https://github.com/samyak1512/AWS-CI-CD-Projects/blob/master/src/pipeline/predict_pipeline.py) | <code>► INSERT-TEXT-HERE</code> |
-
-</details>
-
-<details closed><summary>src.components</summary>
-
-| File                                                                                                                         | Summary                         |
-| ---                                                                                                                          | ---                             |
-| [data_ingestion.py](https://github.com/samyak1512/AWS-CI-CD-Projects/blob/master/src/components/data_ingestion.py)           | <code>► INSERT-TEXT-HERE</code> |
-| [model_trainer.py](https://github.com/samyak1512/AWS-CI-CD-Projects/blob/master/src/components/model_trainer.py)             | <code>► INSERT-TEXT-HERE</code> |
-| [data_transformation.py](https://github.com/samyak1512/AWS-CI-CD-Projects/blob/master/src/components/data_transformation.py) | <code>► INSERT-TEXT-HERE</code> |
-
-</details>
-
----
 
 ##  Getting Started
 
 **System Requirements:**
 
-* **Python**: `version x.y.z`
+* **Python**: `version 3.8`
 
 ###  Installation
 
@@ -229,7 +127,7 @@ The data was collected from Student_Performance_Data on Kaggle
 
 > Run AWS-CI-CD-Projects using the command below:
 > ```console
-> $ python main.py
+> $ python app.py
 > ```
 
 ###  Tests
@@ -241,13 +139,6 @@ The data was collected from Student_Performance_Data on Kaggle
 
 ---
 
-##  Project Roadmap
-
-- [X] `► INSERT-TASK-1`
-- [ ] `► INSERT-TASK-2`
-- [ ] `► ...`
-
----
 
 ##  Contributing
 
@@ -296,18 +187,10 @@ Contributions are welcome! Here are several ways you can contribute:
 
 ##  License
 
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
-
+This project is protected under the [MIT](https://github.com/samyak1512/AWS-CI-CD-Projects/blob/main/LICENSE) License.
 ---
 
 ##  Acknowledgments
 
 - List any resources, contributors, inspiration, etc. here.
 
-[**Return**](#-overview)
-
----
-
-AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
-
-ECR_REPOSITORY_NAME = simple-app
