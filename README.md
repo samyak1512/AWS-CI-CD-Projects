@@ -53,6 +53,28 @@ The data was collected from Student_Performance_Data on Kaggle
 Tested various different regressors, including Linear, Lasso, Ridge, KNN, Decision Tree, Random Forest, XGBoost, Caboost and Adabaoost regressor and calculated R^2 for each of them.
 <img width="695" alt="image" src="https://github.com/samyak1512/AWS-CI-CD-Projects/assets/43640144/b222beb6-92fd-4648-bc54-5e15b865a0e4">
 
+## 7) Perfomance of each model
+<img width="281" alt="image" src="https://github.com/samyak1512/AWS-CI-CD-Projects/assets/43640144/978399f6-1657-4abe-83bb-4646356fc21a">
+
+## 8) Plotting y_pred and y_test
+<img width="450" alt="image" src="https://github.com/samyak1512/AWS-CI-CD-Projects/assets/43640144/3452321c-f686-4c5b-89cb-d4827b50a95e">                <img width="450" alt="image" src="https://github.com/samyak1512/AWS-CI-CD-Projects/assets/43640144/cf4f7d3c-b0b8-49a9-9d4d-b213c4562de7">
+
+## 9) Data Ingestion Pipeline
+It utilizes various modules and components such as data ingestion, transformation, and model training. The DataIngestion class reads a CSV dataset, performs a train-test split, and saves the split data into separate CSV files. Subsequently, the DataTransformation class transforms the data, and finally, the ModelTrainer class is employed to train a machine learning model. This script offers a structured approach to streamline the process of data preprocessing and model training, making it suitable for machine learning projects.
+
+## 10) Pipeline for base model training
+Defines a ModelTrainer class responsible for training machine learning models and selecting the best performing model based on evaluation metrics. It initializes various regression models and their corresponding hyperparameters. The initiate_model_trainer method splits the input data into training and testing sets, evaluates each model's performance using cross-validation, selects the best performing model, and saves it to a file. If the best model's performance does not meet a specified threshold, an exception is raised. Finally, the R-squared score of the best model on the test set is returned. The script demonstrates a robust approach to model training and selection suitable for regression tasks.
+
+## 11) Prediction Pipeline
+Defines a PredictPipeline class responsible for making predictions using a trained machine learning model. It also defines a CustomData class to create custom data instances for prediction.
+
+The PredictPipeline class contains a predict method that loads the trained model and preprocessing pipeline from files, scales the input features using the preprocessing pipeline, makes predictions using the model, and returns the predictions.
+
+The CustomData class represents custom data instances with attributes such as gender, race_ethnicity, parental_level_of_education, lunch, test_preparation_course, reading_score, and writing_score. It provides a method get_data_as_data_frame to convert the custom data instance into a pandas DataFrame.
+
+These classes can be utilized to deploy the trained model for making predictions on new data instances efficiently.
+
+
 
 
 
